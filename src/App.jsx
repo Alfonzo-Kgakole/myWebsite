@@ -1,7 +1,12 @@
-const App = () => {
-  return <div className="text-blue-50">
-    app
-  </div>;
-};
+import React from 'react'
+import HeroSection from './section/HeroSection'
 
-export default App;
+const App = () => {
+  return (
+    <div>
+      <HeroSection />
+    </div>
+  )
+}
+
+export default App
